@@ -1,4 +1,4 @@
-<!-- [![comprasCI](https://github.com/chrislima-inatel/tdd-ci-devops/actions/workflows/ComprasCI/badge.svg)](https://github.com/chrislima-inatel/tdd-ci-devops/actions) -->
+[![ComprasCI](https://github.com/chrislima-inatel/tdd-ci-devops/actions/workflows/comprasCI.yml/badge.svg)](https://github.com/chrislima-inatel/tdd-ci-devops/actions)
 
 
 # tdd-ci-devops
