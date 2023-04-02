@@ -1,4 +1,3 @@
-[![ComprasCI](https://github.com/chrislima-inatel/tdd-ci-devops/actions/workflows/comprasCI.yml/badge.svg)](https://github.com/chrislima-inatel/tdd-ci-devops/actions/workflows/comprasCI.yml)
 
 
 # tdd-ci-devops
