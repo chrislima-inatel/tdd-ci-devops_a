@@ -60,11 +60,10 @@ jobs:
           path: target/*.jar
 
   shell-scripts:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Executar scripts
+    - name: Executar scripts externos versionados
       uses: actions/checkout@v3
       run: |
         ls
