@@ -65,4 +65,4 @@ jobs:
     steps:
     - name: Executar scripts externos versionados
       uses: actions/checkout@v3
-    - run: pwd
+    - run: sh scripts/shell.sh
