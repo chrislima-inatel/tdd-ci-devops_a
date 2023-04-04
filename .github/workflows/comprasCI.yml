@@ -58,3 +58,14 @@ jobs:
         with:
           name: pacote-jar
           path: target/*.jar
+
+  shell-scripts:
+
+    runs-on: ubuntu-latest
+
+      - name: Executar scripts
+        uses: actions/checkout@v3
+        run: |
+          ls
+          pwd
+          git version
