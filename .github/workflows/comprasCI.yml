@@ -28,7 +28,14 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn clean test
+      run: mvn clean test site
+
+    - name: Upload test artifacts
+      uses: actions/upload-artifacts@v3
+      with:
+        name: relatorio-testes
+        path: target/site/
+    
 
   build:
 
